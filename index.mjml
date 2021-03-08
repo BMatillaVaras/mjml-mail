@@ -1,11 +1,98 @@
 <mjml>
-  <mj-body>
-    <mj-section>
-      <mj-column>
-        <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png"></mj-image>
-        <mj-divider border-color="#F45E43"></mj-divider>
-        <mj-text font-size="20px" color="#F45E43" font-family="helvetica">Primer mail</mj-text>
+  <mj-head>
+    <mj-title>Belén Matilla</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+      -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link {
+      color: #5e6ebf
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+      color: #888888
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-top.png" width="600px" alt="" padding="0" href="https://google.com" />
       </mj-column>
     </mj-section>
+    <mj-section background-color="#1f2e78">
+      <mj-column width="100%">
+        <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-bottom.png" width="600px" alt="" padding="0" href="https://google.com" />
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Hola 
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Me llamo Belén Matilla y soy Programadora Front-end Junior.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Estudié arquitectura, donde aprendí a trabajar en equipo y gestionar el estrés. Como voluntaria en Cruz Roja mejoré mis habilidades de trabajo y aprendí a comunicarme de manera empática con todo tipo de personas. Pero fue trabajando como profesora de robótica educativa donde descubrí, haciendo mis primeros robots y proyectos con Arduino, el apasionante mundo de la programación, que aúna mi pasión por el diseño y la tecnología. 
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Decidí cambiar mi orientación profesional, elegí el Bootcamp de Adalab en el que he aprendido HTML, CSS, JavaScript, React, y nociones de Node JS, así como a trabajar bajo la filosofía Agile y con el marco de trabajo Scrum. Después de Adalab he estado aprendiendo un poco de Angular.  
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Soy una persona proactiva, empática y trabajadora, me encantan los retos y aprender cosas nuevas, siempre dando lo mejor de mí misma. Me encantaría que hablásemos y nos conociésemos mejor. 
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Un saludo
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="100%">
+          <mj-divider border-color="#DFE3E8" border-width="1px" />
+          <mj-button background-color="#5e6ebf" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://drive.google.com/file/d/1cPhmes4tSY2J80PsjBFKBX8lpiQWU1ti/view?usp=sharing" width="300px">
+            Descargar CV
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0px" align="center">
+            <mj-social-element name="github" href="https://github.com/BMatillaVaras" background-color="#A1A0A0" padding="15px">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://twitter.com/vallamanquesa" background-color="#A1A0A0" padding="15px">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/belenmatillavaras/" background-color="#A1A0A0" padding="15px">
+            </mj-social-element>
+          </mj-social>
+          
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="100%" padding-right="0">
+            <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
+              <a class="footer-link" href="https://www.google.com">Pulse aquí para cancelar la suscripción</a>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+      </mj-section>
+    </mj-wrapper>
+
   </mj-body>
 </mjml>
