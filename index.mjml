@@ -85,7 +85,9 @@
         <mj-group>
           <mj-column width="100%" padding-right="0">
             <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
-              <a class="footer-link" href="https://www.google.com">Pulse aquí para cancelar la suscripción</a>
+              <p>Si no quieres recibir este email pulsa
+            <a href='[[UNSUB_LINK_ES]]'>aquí</a>
+          </p>
             </mj-text>
           </mj-column>
         </mj-group>
