@@ -25,15 +25,14 @@
     </mj-style>
 
   </mj-head>
-  <mj-body background-color="#E7E7E7" width="600px">
-    <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
-      <mj-column width="100%">
-        <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-top.png" width="600px" alt="" padding="0" href="https://google.com" />
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#1f2e78">
-      <mj-column width="100%">
-        <mj-image src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-bottom.png" width="600px" alt="" padding="0" href="https://google.com" />
+  <mj-body background-color="#f4fbd6" width="600px">
+    <mj-section full-width="full-width" background-color="#0a480c">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image
+          width="600px"
+          src="https://i.postimg.cc/3RsQ3nQ8/titulo2.png"
+          alt="Hero de Belén Matilla"
+        ></mj-image>
       </mj-column>
     </mj-section>
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
@@ -62,7 +61,7 @@
       <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
         <mj-column width="100%">
           <mj-divider border-color="#DFE3E8" border-width="1px" />
-          <mj-button background-color="#5e6ebf" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://drive.google.com/file/d/1cPhmes4tSY2J80PsjBFKBX8lpiQWU1ti/view?usp=sharing" width="300px">
+          <mj-button background-color="#0a480c" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://drive.google.com/file/d/1cPhmes4tSY2J80PsjBFKBX8lpiQWU1ti/view?usp=sharing" width="300px">
             Descargar CV
           </mj-button>
         </mj-column>
@@ -72,11 +71,11 @@
       <mj-section>
         <mj-column width="100%" padding="0">
           <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0px" align="center">
-            <mj-social-element name="github" href="https://github.com/BMatillaVaras" background-color="#A1A0A0" padding="15px">
+            <mj-social-element name="github" href="https://github.com/BMatillaVaras" background-color="#ca726f" padding="15px">
             </mj-social-element>
-            <mj-social-element name="twitter" href="https://twitter.com/vallamanquesa" background-color="#A1A0A0" padding="15px">
+            <mj-social-element name="twitter" href="https://twitter.com/vallamanquesa" background-color="#ca726f" padding="15px">
             </mj-social-element>
-            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/belenmatillavaras/" background-color="#A1A0A0" padding="15px">
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/belenmatillavaras/" background-color="#ca726f" padding="15px">
             </mj-social-element>
           </mj-social>
           
